@@ -1,0 +1,29 @@
+// Dhiraj Kumar Chaudhary
+// PRN No. 123B1B109
+// Basic program for finding maximum no. from given array.
+#include <iostream>
+using namespace std;
+class max1{
+    public:
+    int a,b;
+    void a1(){
+        cout<<"Enter value of a : ";
+        cin>>a;
+        cout<<"Enter the value of b: ";
+        cin>>b;
+    }
+    void display(){
+        if(a>b){
+            cout<<"a is greater thab b";
+        }
+        else{
+            cout<<"b is greater than a";
+        }
+    }
+};
+int main(){
+        max1 num;
+        num.a1();
+        num.display();
+    return 0;
+}
